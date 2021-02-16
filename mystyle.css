@@ -1,0 +1,169 @@
+/* FONTS */
+@font-face {
+  font-family: PWMAS;
+  src: url(fonts/please_write_me_a_song/pwmas.ttf);
+}
+
+@font-face {
+  font-family: DosisR;
+  src: url(fonts/Dosis/static/Dosis-Regular.ttf);
+}
+
+@font-face {
+  font-family: DosisB;
+  src: url(fonts/Dosis/static/Dosis-Bold.ttf);
+}
+
+@font-face {
+  font-family: SweetPurple;
+  src: url(fonts/sweet_purple/sweetpurple.ttf);
+}
+
+/* DIVS */
+#container {
+  position: relative;
+  top: 100px;
+  width: 500px;
+}
+
+#content-box {
+  background: #fff;
+  padding: 30px;
+  font-family: PWMAS;
+  font-size: 22px;
+  margin-bottom: 20px;
+  background-color: #ffebf0;
+  border-radius: 50px;
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.03);
+}
+
+#welcome {
+  text-align: center;
+  font-size: 150px;
+  font-family: SweetPurple;
+  color: #51beed;
+  margin-bottom: -55px;
+  margin-top: -50px;
+}
+
+#hero-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#hero-image img {
+  width: 228px;
+}
+
+#end-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -40px;
+}
+
+#end-image img {
+  width: 228px;
+}
+
+#weblink a {
+  text-decoration: underline;
+  padding: 0px;
+  font-size: 20px;
+  font-family: DosisR;
+  color: black;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;}
+  20% {
+    left: 0;}
+  25% {
+    left: -100;}
+  45% {
+    left: -100;}
+  50% {
+    left: -200;}
+  70% {
+    left: -200;}
+  75% {
+    left: -300;}
+  95% {
+    left: -300;}
+  100% {
+    left: -400;}
+  }
+  }
+}
+
+/* FUNCTIONS */
+body {
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #d1f0ff,
+    #d1f0ff 10px,
+    #def4ff 10px,
+    #def4ff 20px
+    );
+}
+
+h1 {
+  color: #51beed;
+  font-family: PWMAS;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-family: DosisB;
+  background: #ffebf0;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a:hover {
+  background: #fff7f9;
+}
+
+a:link {
+  color: #51beed;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #51beed;
+  text-decoration: none;
+}
